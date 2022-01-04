@@ -1,6 +1,10 @@
+#container{
+   max-width: 1250px;
+}
+
 body {
   font-family: "Source Sans Pro", sans-serif;
-  background-color: #F8F2F2;
+  background-color: #FFFFFF;
   margin: 0;
   padding: 0;
 }
@@ -81,6 +85,11 @@ p {
 .borderR1{
    border-left: 10px solid;
    border-image: linear-gradient(to top, rgb(5, 5, 204), rgb(204, 11, 11)) 1;
+   border-radius: 5px;
+}
+.borderR2{
+   border-left: 10px solid;
+   border-image: linear-gradient(to top, rgb(5, 204, 5), rgb(0, 59, 168)) 1;
    border-radius: 5px;
 }
 #footer{
