@@ -1,5 +1,8 @@
 body {
   font-family: "Source Sans Pro", sans-serif;
+  background-color: #F8F2F2;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 50px;
@@ -11,16 +14,17 @@ h3 {
   font-size: 30px;
 }
 p {
-  font-size: 20px;
+  font-size: 25px;
   color: gray;
 }
 .section1 {
   display: flex;
   background-image: url("2.png");
   background-repeat: no-repeat;
+  padding-top: 20px;
 }
 .texTColor {
-  color: orange;
+  color: #FF2B00;
 }
 .divWidth {
   width: 50%;
@@ -32,7 +36,7 @@ p {
   margin-top: 100px;
   padding-left: 50px;
 }
-.hireMe {
+.button {
   background-image: linear-gradient(red, orange);
   text-decoration: none;
   border: 1px solid orange;
@@ -40,4 +44,12 @@ p {
   border-radius: 5px;
   color: white;
   font-weight: bolder;
+}
+
+.section2{
+   display: flex;
+   padding-top: 100px;
+   background-image: url("1.png");
+   background-repeat: no-repeat;
+   background-position: right;
 }
