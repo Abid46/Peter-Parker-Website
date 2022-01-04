@@ -64,8 +64,8 @@ p {
 }
 .section3-box{
    display: flex;
-   /* margin-top: 0;
-   padding-top: 0; */
+   background-image: url("3.png");
+   background-repeat: no-repeat;
 }
 .color{
    color: #FF2B00;
