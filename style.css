@@ -71,28 +71,29 @@ p {
    color: #FF2B00;
 }
 .exp{
-   padding-left: 5%;
+   padding-left: 2%;
 }
 .divBox{
    width: 40%;
-   /* margin-bottom: 30px;
-   margin-left: 5%; */
+   padding-left: 50px;
    margin: 20px;
    border-radius: 8px;
    border: 0px solid;
-   box-shadow: 5px 10px 10px rgb(156, 36, 36);
+   box-shadow: 0px 5px 15px rgb(107, 5, 5);
 }
 .borderR1{
    border-left: 10px solid;
    border-image: linear-gradient(to top, rgb(5, 5, 204), rgb(204, 11, 11)) 1;
    border-radius: 5px;
+   margin-left: 30px;
 }
 .borderR2{
    border-left: 10px solid;
    border-image: linear-gradient(to top, rgb(5, 204, 5), rgb(0, 59, 168)) 1;
    border-radius: 5px;
+   margin-left: 30px;
 }
 #footer{
    text-align: center;
-   margin-top: 50px;
+   margin-top: 70px;
 }
